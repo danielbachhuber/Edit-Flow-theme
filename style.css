@@ -1,0 +1,175 @@
+/*   
+Theme Name: Edit Flow 2010
+Theme URI: http://www.editflow.org/
+Description: Pitching Edit Flow.
+Author: Andrew Spittle
+Author URI: http://www.andrewspittle.net  
+Version: 0.01
+. 
+This theme can be used for commercial or non-commercial use 
+so long as it is not redistributed or resold in any way.
+. 
+*/
+
+body {font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;background-color:#000000;color:#ffffff;}
+
+#wrap {}
+
+/* @group Navigation */
+
+#nav {float:right;padding-top:10px;margin:0;border-bottom:1px dotted #3d3d3d;padding-bottom:5px;}
+#nav li {display:inline;margin:0 5px;}
+#nav li a {text-decoration:none;padding:3px 5px;color:#ffffff;font-size:16px;}
+#nav li a:hover {background-color:#507282;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;-webkit-transition: background-color 0.3s linear;text-shadow:#3d3d3d 1px 1px 1px;border:none;}
+
+/* @end */
+
+/* @group Homepage */
+
+#project-info {margin-bottom:40px;margin-top:20px;border-bottom:1px dotted #3d3d3d;}
+#project-info h4 {font-style:italic;font-size:34px;color:#989898;font-weight:normal;margin:0 0 10px 95px;}
+#project-info a:hover {border:none !important;}
+
+#feature-list {}
+#feature-list ul li {list-style-type:none;margin:0 0 10px;}
+#feature-list ul li span.feature-title {font-size:14px;font-weight:bold;display:block;}
+#feature-list ul li span.feature-description {color:#989898;}
+
+#blog-updates {}
+#blog-updates h5 {margin-bottom:5px;font-size:18px;}
+#blog-updates h5 a {color:#989898;border-bottom:1px dotted #989898;}
+#blog-updates h5 a:hover {color:#efefef;}
+#blog-updates p {color:#989898;margin-bottom:5px;}
+#blog-updates .metadata {color:#666666;}
+#blog-updates .metadata li {list-style-type:none;margin:0;}
+
+/* @end */
+
+/* @group Blog */
+
+#blog-post h2 {font-size:34px;margin-bottom:5px;}
+#blog-post p {font-size:13px;line-height:19px;}
+#blog-post a {color:#efefef;border-bottom:1px dotted #efefef;}
+#blog-post a:hover {color:#000000;border-bottom:none;background-color:#efefef;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;-webkit-transition: background-color 0.3s linear;-webkit-transition: color 0.3s linear;}
+#blog-post .metadata {color:#666666;padding-top:5px;margin-bottom:0;padding-bottom:5px;}
+#blog-post .metadata li {list-style-type:none;margin:0 10px 0 0;display:inline;}
+#blog-post img {max-width: 99%;height:inherit;padding: 2px;background-color: #989898;}
+#blog-post ul {list-style-type: circle;line-height:19px;font-size:13px;}
+#blog-post ol {list-style-type: decimal;line-height:19px;font-size:13px;}
+blockquote {padding-left:15px;font-style:italic;}
+.aligncenter, div.aligncenter {display: inline;margin-left: auto;margin-right: auto;clear: both;}
+.alignleft {float: left;margin-right: 20px;margin-bottom: 5px;}
+.alignright {float: right;margin-left: 20px;margin-bottom: 5px;}
+.wp-caption {padding-top: 4px;}
+.wp-caption img {padding: 2px;border: 1px solid #e1e1e1;}
+.wp-caption p.wp-caption-text {border-bottom: 1px solid #989898;margin-bottom: 10px;margin-top: 0 !important;margin-right: 0px;text-align: left;color: #3d3d3d;font: 11px/16px Helvetica, Arial, Geneva, sans-serif !important;}
+
+/* @end */
+
+/* @group Comments */
+
+h3#comments {border-top:2px solid #3d3d3d;padding-top:5px;}
+.comment-body {margin-bottom: 18px;padding-left: 20px;}
+.comment {list-style-type: none;}
+.pingback {list-style-type: none;}
+#commentform label {font-weight:bold;}
+#commentform p {float:left;margin-right:15px;}
+#author, #email, #url {border: 2px solid #989898;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;background-color: #3d3d3d;padding: 5px;color:#FFFFFF;}
+#author:focus, #email:focus, #url:focus {background-color: #efefef;border: 2px solid #FFFFFF;color:#000000;}
+#comment {width: 510px;border: 2px solid #989898;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;background-color: #3d3d3d;padding: 10px;color:#FFFFFF;}
+#comment:focus {background-color: #efefef;border: 2px solid #FFFFFF;color:#000000;}
+#submit {border:2px solid #efefef;border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;background-color: #e1e1e1;color: #000000;font-weight:bold;padding-top: 4px;padding-bottom: 4px;font-size:13px;}
+.comment-author {font-size: 14px;font-weight: bold;}
+.avatar {float:left;width:50px !important;margin-right:10px;padding: 4px;background-color: #989898;}
+.reply {text-align: right;}
+.comment-reply-link {}
+.depth-1 {margin-left:0px;}
+.depth-2 {margin-left: 54px;}
+
+/* @end */
+
+/* @group Page */
+
+#page h2 {font-size:34px;margin-bottom:5px;}
+#page p {font-size:13px;line-height:19px;}
+#page .metadata {color:#666666;border-top:1px dotted #3d3d3d;padding-top:5px;}
+#page .metadata li {list-style-type:none;margin:0;}
+
+/* @end */
+
+/* @group Archives */
+
+.archives-title {font-variant:small-caps;color:#989898;margin-bottom:15px!important;}
+.blog-entry {margin-bottom:30px;}
+.blog-entry h5 {font-size:20px;}
+.blog-entry h5 a {border-bottom:1px dotted #989898;color:#efefef!important;}
+.blog-entry h5 a:hover {color:#989898!important;background:none!important;border-bottom:1px dotted #989898!important;}
+.blog-entry p {margin-bottom:5px;}
+.blog-entry .metadata {margin-bottom:10px!important;}
+.more-posts {font-weight: bold;padding-top: 18px;}
+.more-posts li {list-style-type: none;margin:0;}
+.more-posts span.right a {padding:5px 20px;background-color:#3d3d3d;border:none!important;border-radius: 30px!important;-moz-border-radius: 30px!important;-webkit-border-radius: 30px!important;color:#ffffff;float:right;}
+.more-posts span.right a:hover {padding:5px 20px;background-color:#989898;border-radius: 30px!important;-moz-border-radius: 30px!important;-webkit-border-radius: 30px!important;color:#ffffff;}
+.more-posts span.left a {padding:5px 20px;background-color:#3d3d3d;border:none!important;border-radius: 30px!important;-moz-border-radius: 30px!important;-webkit-border-radius: 30px!important;color:#ffffff;float:left;}
+.more-posts span.left a:hover {padding:5px 20px;background-color:#989898;border-radius: 30px!important;-moz-border-radius: 30px!important;-webkit-border-radius: 30px!important;color:#ffffff;}
+
+/* @end */
+
+/* @group Sidebar */
+
+#sidebar {color:#989898;padding-top:20px;}
+#sidebar h3 {color:#989898;}
+#sidebar li {list-style-type:none;}
+
+/* @end */
+
+/* @group Widgets */
+
+.widgettitle {font-size:18px;margin-bottom:5px;color:#507282;font-variant:small-caps;}
+/*** Twitter ***/
+#twitter_time_line li {margin-left:0;color:#e1e1e1;}
+#twitter_time_source {color:#3d3d3d;}
+#twitter_time_line a {color:#989898;}
+#twitter_time_line a:hover {color:#efefef;}
+/*** Publish2 ***/
+.widget_publish2 h5 {line-height:24px;margin-bottom:5px;}
+.widget_publish2 h5 a {color:#e1e1e1;font-size:14px;border-bottom:1px dotted #e1e1e1;}
+.widget_publish2 h5 a:hover {color:#989898;font-size:14px;border-bottom:1px dotted #989898;}
+.widget_publish2 p {margin-bottom:10px;}
+.widget_publish2 p.p2-quote {font-style:italic;padding-left:15px;}
+
+/* @end */
+
+/* @group Footer */
+
+#footer {border-top:1px solid #3d3d3d;margin-top:20px;}
+#footer ul {text-align:center;color:#989898;padding-top:10px;}
+#footer ul li {display:inline;}
+
+/* @end */
+
+/* @group Images */
+
+.site-logo-large {width:780px;}
+.screenshot {width:130px;float:left;margin-right:5px;margin-bottom:10px;margin-left:5px;}
+a img.screenshot {border:5px solid #989898;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+a:hover img.screenshot {border:5px solid #507282;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+
+/* @end */
+
+/* @group Typography */
+
+a {text-decoration:none;}
+a:hover {border-bottom:1px solid #efefef;}
+h3 {color:#ffffff;margin-bottom:10px;}
+
+/* @end */
+
+/* @group Search */
+
+#search {padding-left:30px;margin-bottom:20px;}
+#s {width: 170px;border: 1px solid #989898;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;background-color: #efefef;height: 15px;padding-top: 4px;padding-bottom: 4px;padding-left:4px;color:#3d3d3d;margin-right:5px;}
+#s:focus {background-color: #FFFFFF;}
+#sbutt {border:3px solid #989898;border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;background-color: #989898;color: #ffffff;font-weight:bold;text-transform: uppercase;padding-top: 4px;padding-bottom: 4px;font-size:10px;}
+
+/* @end */
