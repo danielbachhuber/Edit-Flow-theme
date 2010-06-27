@@ -29,8 +29,8 @@
 <div id="wrap" class="container_12"><!-- Page wrap -->
 	<div id="header" class="grid_12">
 		<ul id="nav"><!-- Main navigation -->
-			<?php wp_list_pages('title_li=&depth=1'); ?>
-			<li><a href="category/blog" title="See the most recent blog updates">Blog</a></li>
+			<?php wp_list_pages('title_li=&depth=1&exclude=3881'); ?>
+			<li><a href="/category/blog/" title="See the most recent blog updates">Blog</a></li>
 			<li><a href="http://wordpress.org/extend/plugins/edit-flow/" title="Download from the WordPress directory">Download</a></li>
 		</ul><!-- /Main navigation -->
 	</div>
