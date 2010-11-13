@@ -62,7 +62,7 @@ blockquote {padding-left:15px;font-style:italic;}
 .alignright {float: right;margin-left: 20px;margin-bottom: 5px;}
 .wp-caption {padding-top: 4px;}
 .wp-caption img {padding: 2px;border: 1px solid #e1e1e1;}
-.wp-caption p.wp-caption-text {border-bottom: 1px solid #989898;margin-bottom: 10px;margin-top: 0 !important;margin-right: 0px;text-align: left;color: #3d3d3d;font: 11px/16px Helvetica, Arial, Geneva, sans-serif !important;}
+.wp-caption p.wp-caption-text {border-bottom: 1px solid #989898;margin-bottom: 10px;margin-top: 0 !important;margin-right: 0px;text-align: left;color: #ccc;font: 11px/16px Helvetica, Arial, Geneva, sans-serif !important;}
 
 /* @end */
 
