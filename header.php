@@ -21,8 +21,8 @@
 <!-- Site specific stylesheet -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" />
 
-<link href="<?php bloginfo(‘rss2_url’); ?>" title="<?php bloginfo('name'); ?> Posts RSS" type="application/rss+xml" rel="alternate" />
-<link href="<?php bloginfo(‘comments_rss2_url’); ?>" title="<?php bloginfo('name'); ?> Comments RSS" type="application/rss+xml" rel="alternate" />
+<link href="<?php bloginfo('rss2_url'); ?>" title="<?php bloginfo('name'); ?> Posts RSS" type="application/rss+xml" rel="alternate" />
+<link href="<?php bloginfo('comments_rss2_url'); ?>" title="<?php bloginfo('name'); ?> Comments RSS" type="application/rss+xml" rel="alternate" />
 
 <?php wp_head(); ?>
 
