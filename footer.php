@@ -5,5 +5,7 @@
 	</div>
 </div><!-- /Page wrap -->
 
+<?php wp_footer(); ?>
+
 </body>
 </html>
